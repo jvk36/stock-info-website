@@ -1,0 +1,35 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 5,
+        "total": 5
+    },
+    "data": [
+        {
+            "date": "2020-08-31",
+            "split_factor": 4.0,
+            "symbol": "AAPL"
+        },
+        {
+            "date": "2014-06-09",
+            "split_factor": 7.0,
+            "symbol": "AAPL"
+        },
+        {
+            "date": "2005-02-28",
+            "split_factor": 2.0,
+            "symbol": "AAPL"
+        },
+        {
+            "date": "2000-06-21",
+            "split_factor": 2.0,
+            "symbol": "AAPL"
+        },
+        {
+            "date": "1987-06-16",
+            "split_factor": 2.0,
+            "symbol": "AAPL"
+        }
+    ]
+}
