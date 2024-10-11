@@ -41,8 +41,8 @@ def index():
     if request.method == 'POST':
         ticker = request.form['ticker']
         # stock_info = get_stock_info(ticker) # get the hardcoded data for testing purposes
-        stock_info = json_data.get_stock_data() # get the data from the json files for testing purposes.
-        # stock_info = api_data.get_stock_data(ticker) # get data from the marketstack api
+        # stock_info = json_data.get_stock_data() # get the data from the json files for testing purposes.
+        stock_info = api_data.get_stock_data(ticker) # get data from the marketstack api
     return render_template('index.html', stock_info=stock_info)
 
 if __name__ == '__main__':
